@@ -1,0 +1,441 @@
+* {
+
+    padding: 0;
+    ;
+    margin: 0;
+    ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-image: url(/image/background.jpg);
+    background-size: 2000px;
+    background-repeat: no-repeat; */
+    color: white;
+}
+
+.navop {
+
+    background-color: rgba(255, 254, 254, 0.095);
+    border-radius: 10px;
+
+
+    margin-top: 20px;
+
+    display: flex;
+
+    height: 80px;
+
+
+
+    align-items: center;
+
+    gap: 50px;
+
+    list-style: none;
+    color: white;
+
+
+
+
+}
+
+.navop a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+
+
+}
+
+.navop a:hover {
+    color: #ff7900;
+}
+
+.homepagetext {
+
+
+    background-color: rgba(255, 254, 254, 0.095);
+    width: 700px;
+    height: 300px;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 110px;
+    word-spacing: 0.2em;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.letsstartbutton {
+    width: fit-content;
+    margin-left: 300px;
+    margin-top: 50px;
+    background-color: #ff7900;
+    border-radius: 90px;
+}
+
+.letsstartbutton a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+
+}
+
+.letsstartbutton a:hover {
+
+    text-decoration: underline;
+
+
+}
+
+.logotext {
+    align-content: end;
+    color: #ff7900;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.href {
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+    margin: auto;
+    font-size: 22px;
+
+}
+
+.logotext h1:hover {
+    color: red;
+    cursor: default;
+}
+
+
+
+
+.Welcome:hover {
+    color: red;
+    cursor: default;
+
+}
+
+.Ename {
+    display: block;
+
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+
+
+
+}
+
+/* .Ename:hover{
+    border: 2px solid rgba(0, 0, 255, 0.611);
+} */
+.Ename input {
+    font-size: 20px;
+}
+
+.btn {
+    border: none;
+
+    font-size: 20px;
+    margin-top: 40px;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+    background-color: #ff770086;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff7900;
+}
+
+.lgimg {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    width: fit-content;
+    display: flex;
+    
+
+    gap: 200px;
+
+}
+
+.gain {
+    background-image: url(/image/gain.PNG);
+    background-size: cover;
+    background-position: 0px;
+    border-radius: 15px;
+
+    width: 250px;
+    height: 200px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.lose {
+    background-image: url(/image/lose.PNG);
+    background-size: cover;
+    border-radius: 15px;
+    background-position: 0px;
+
+    width: 250px;
+    height: 200px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.gain:hover {
+
+    background-size: 300px;
+    background-position: -30px;
+    border: 5px solid #ff7900
+}
+
+.lose:hover {
+    background-size: 300px;
+    background-position: -30px;
+    border: 5px solid #ff7900
+}
+
+.loseorgaintext {
+    display: block;
+    width: fit-content;
+
+    font-size: 25px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+.textlestgo {
+    margin-top: 80px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin: auto;
+    margin-top: 100px;
+
+    width: fit-content;
+    height: 350px;
+    background-color: rgba(255, 254, 254, 0.095);
+}
+
+.firsthalf {
+    top: 0;;
+
+
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+
+
+    margin: auto;
+    background: rgba(0, 0, 0, 0.491) url(/image/backmain.jpg);
+    background-blend-mode: darken;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    border: none;
+    
+
+    height: 800px;
+
+    padding: 10px;
+}
+
+.heading {
+    font-size: 20px;
+    color: #ff7900;
+    text-align: center;
+
+}
+
+.lowheading {
+    margin-top: 15px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    word-spacing: 10%;
+}
+
+.secondhalf {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.045);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 900px;
+
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.thirdhalf {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.045);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 900px;
+
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    flex-direction: row-reverse;
+
+}
+
+.fcol {
+    width: 50%;
+
+}
+
+.fimg {
+    align-items: center;
+}
+
+.secondhalf img {
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.thirdhalf img {
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.contactus {
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+
+
+    margin: 0;
+    background: rgba(0, 0, 0, 0.79) url(/image/backmain.jpg);
+    background-blend-mode: darken;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    border-top: solid black;
+
+    height: 400px;
+
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.contactsec {
+
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    height: 300px;
+    background-color: rgba(255, 254, 254, 0.095);
+    padding: 10px;
+}
+
+.center {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.contactsec input {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.contactsec textarea {
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.contactsec ::placeholder {
+    font-size: 15px;
+    text-align: center;
+    word-spacing: 5px;
+}
+.csubmitbutton input{
+    width: 70px;
+    cursor: pointer;
+    
+}
+.csubmitbutton {
+    margin-top: 10px;
+    margin-left: 50px;
+    
+    width: fit-content;
+    
+    
+    
+}
+   
+
+.secondhalf:hover {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.045);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 1100px;
+
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    border: 2px solid #ff7900;
+}
+
+.thirdhalf:hover {
+    border: 2px solid #ff7900;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.045);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 1100px;
+
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+.letsgobg{
+    background: rgba(0, 0, 0, 0.519) url(/image/realbg.jpeg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
