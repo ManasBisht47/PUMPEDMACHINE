@@ -182,7 +182,7 @@ body {
 }
 
 .gain {
-    background-image: url(/image/gain.PNG);
+    background-image: url(gain.PNG);
     background-size: cover;
     background-position: 0px;
     border-radius: 15px;
@@ -195,7 +195,7 @@ body {
 }
 
 .lose {
-    background-image: url(/image/lose.PNG);
+    background-image: url(lose.PNG);
     background-size: cover;
     border-radius: 15px;
     background-position: 0px;
