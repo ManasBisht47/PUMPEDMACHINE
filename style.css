@@ -337,7 +337,7 @@ body {
 
 
     margin: 0;
-    background: rgba(0, 0, 0, 0.79) url(/image/backmain.jpg);
+    background: rgba(0, 0, 0, 0.79) url(backmain.jpg);
     background-blend-mode: darken;
     background-size: 1500px;
     background-repeat: no-repeat;
