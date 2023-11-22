@@ -434,7 +434,7 @@ body {
     gap: 50px;
 }
 .letsgobg{
-    background: rgba(0, 0, 0, 0.519) url(/image/realbg.jpeg);
+    background: rgba(0, 0, 0, 0.519) url(realbg.jpeg);
     background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
