@@ -439,3 +439,231 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@media (max-width:390px) {
+    .homepagetext {
+
+
+        background-color: rgba(255, 254, 254, 0.095);
+        width: 292px;
+        height: 108px;
+        text-align: start;
+        font-size: 10px;
+        margin:auto;
+        border-radius: 10px;
+        margin-top: 6px;
+        word-spacing: 0.2em;
+        padding-top: 11px;
+        text-align: center;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .Welcome{
+        font-size: 15px;
+        color: #ff7900;
+    }
+    .pmtext{
+        font-size: 15px;
+        color: #ff7900;
+    }
+    
+    
+    .firsthalf {
+        top: 0;;
+    
+    
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+    
+    
+        margin: auto;
+        background: rgba(0, 0, 0, 0.491) url(/image/backmain.jpg);
+        background-blend-mode: darken;
+        background-size: 390px;
+        background-repeat: no-repeat;
+        border: none;
+        
+    
+        height: 201px;
+    
+        padding: 10px;
+    }
+    .navop {
+        background-color: rgba(255, 254, 254, 0.095);
+        border-radius: 10px;
+        
+        width: 374px;
+        margin-left: -10;
+        margin-top: 20px;
+        display: flex;
+        height: 60px;
+        align-items: center;
+        
+        list-style: none;
+        color: white;
+    
+    
+    }
+    .logotext {
+        align-content: end;
+        color: #ff7900;
+        margin-left: 10px;
+        font-size: 12px;
+        
+        width: 110px;
+    
+    }
+    .href {
+      
+        margin-left: 10px;
+        width: 200px;
+        margin-top: 2px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 10px;
+        
+        gap: 25px;
+        
+    
+    
+    
+    }
+    .navop a {
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+    
+    
+    
+    }
+    
+    .btn {
+
+        border: none;
+        font-size: 15px;
+        margin-top: 27px;
+        height: 30px;
+        width: 90px;
+        border-radius: 10px;
+        color: white;
+        background-color: #ff770086;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        cursor: pointer;
+    
+    
+    
+}
+.secondhalf {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.045);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    width: 340px;
+    border: solid #ff7900
+    
+}
+.secondhalf img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+.thirdhalf img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;}
+.thirdhalf{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.045);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    width: 340px;
+    border: solid #ff7900
+}
+
+.heading {
+    font-size: 15px;
+    color: #ff7900;
+    text-align: center;
+
+}
+
+.lowheading {
+    margin-top: 15px;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    word-spacing: 10%;
+}
+.contactus {
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+
+
+    margin: 0;
+    background: rgba(0, 0, 0, 0.79) url(/image/backmain.jpg);
+    background-blend-mode: darken;
+    background-size: 390px;
+    background-repeat: no-repeat;
+    border-top: solid black;
+
+    height: 295px;
+
+    padding: 10px;
+    margin-top: 50px;
+
+}
+.contactsec {
+
+    background-color: rgba(255, 254, 254, 0.095);
+    width: 292px;
+    height: 162px;
+    text-align: start;
+    font-size: 10px;
+    margin:auto;
+    border-radius: 10px;
+    margin-top: 6px;
+    word-spacing: 0.2em;
+    padding-top: 11px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    align-content: center;}
+.csubmitbutton {
+        margin-top: 10px;
+        margin-left: 1px;
+        width: fit-content;
+    }  
+.contactsec input {
+        width: 200px;
+        height: 27px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+.contactsec textarea {
+        width: 200px;
+        height: 27px;
+        border-radius: 10px;
+    }
+}
