@@ -9,7 +9,11 @@
 html {
     scroll-behavior: smooth;
     /* font-size: 100%; */
-    font-size: calc(10px + 0.390625vw);
+    font-size: calc(15px + 0.390625vw);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -19,6 +23,9 @@ body {
     background-size: 2000px;
     background-repeat: no-repeat; */
     color: white;
+   
+    
+   
     
     
     
@@ -187,7 +194,7 @@ body {
     background-blend-mode: darken;
     background-repeat: no-repeat;
     margin: auto;
-    background: rgba(0, 0, 0, 0.491) url(backmain.jpg);
+    background: rgba(0, 0, 0, 0.491) url(/image/backmain.jpg);
     background-blend-mode: darken;
     background-size: 100vw 93vh;
     background-repeat: no-repeat;
@@ -275,7 +282,7 @@ body {
 
 
     margin: 0;
-    background: rgba(0, 0, 0, 0.79) url(backmain.jpg);
+    background: rgba(0, 0, 0, 0.79) url(/image/backmain.jpg);
     background-blend-mode: darken;
     background-size: 100vw 93vh;
     background-repeat: no-repeat;
@@ -375,25 +382,20 @@ body {
     gap: 50px;
 }
 .letsgobg{
-    top: 0;;
-
-
+    top: 0;
     background-blend-mode: darken;
     background-repeat: no-repeat;
-
-
     margin: auto;
-    background: rgba(0, 0, 0, 0.491) url(backmain.jpg);
+    background: rgba(0, 0, 0, 0.491) url(/image/backmain.jpg);
     background-blend-mode: darken;
-    background-size: 93.75rem;
+    background-size: 100vw 93vh;
     background-repeat: no-repeat;
     border: none;
-    
-
-    height: 800px;
-
+    width: 100vw;
+    height: 90vh;
     padding: 10px;
 }
+
 .Welcome{
     font-size: 2.5rem;
     color: #ff7900;
@@ -407,13 +409,13 @@ body {
 .letsgopagetitle{
    
     background-color: rgba(255, 254, 254, 0.095);
-    width: 700px;
-    height: 300px;
+    width: 50vw;
+    height: 40vh;
     text-align: start;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: auto;
     border-radius: 10px;
-    margin-top: 200px;
+    margin-top: 10vh;
     word-spacing: 0.2em;
     padding-top: 100px;
     text-align: center;
@@ -678,14 +680,11 @@ body {
 }
 @media (min-width:1280px) {
     html {
-        font-size: 20px;
+        font-size: 15px;
     }
+    
 }
-@media (min-width:1280px) {
-    html {
-        font-size: 20px;
-    }
-}@media (min-width:1366px) {
+@media (min-width:1366px) {
     html {
         font-size: 15px;
     }
@@ -697,6 +696,13 @@ body {
     }
     
 }
+@media (min-width:2000px) {
+    html {
+        font-size: 30px;
+    }
+    
+}
+
 @media (min-width:2560px) {
     html {
         font-size: 20px;
@@ -715,3 +721,12 @@ body {
     }
     
 }
+@media (min-width:9999px) {
+    html {
+        font-size: 150px;
+    }
+    
+}
+
+
+
