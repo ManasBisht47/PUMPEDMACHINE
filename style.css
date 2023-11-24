@@ -685,4 +685,33 @@ body {
     html {
         font-size: 20px;
     }
+}@media (min-width:1366px) {
+    html {
+        font-size: 15px;
+    }
+    
+}
+@media (min-width:1600px) {
+    html {
+        font-size: 15px;
+    }
+    
+}
+@media (min-width:2560px) {
+    html {
+        font-size: 20px;
+    }
+    
+}
+@media (min-width:3440px) {
+    html {
+        font-size: 25px;
+    }
+    
+}
+@media (min-width:3840px) {
+    html {
+        font-size: 30px;
+    }
+    
 }
