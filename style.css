@@ -340,10 +340,11 @@ body {
     
 }
 .csubmitbutton {
+    margin: auto;
     margin-top: 10px;
-    margin-left: 50px;
     
     width: fit-content;
+    
     
     
     
