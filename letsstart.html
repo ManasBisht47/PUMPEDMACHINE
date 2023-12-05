@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 
 <head>
     <meta charset="UTF-8">
@@ -8,9 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        
+
     </style>
-   
+
 </head>
 
 <body class="letsgopagebody">
@@ -29,7 +29,9 @@
         </nav>
         <div class="letsgopagetitle">
             <h2 style="color: #ff7900;">Welcome to Your Personalized Fitness Adventure!</h2>
-            <p>🌟 Greetings and welcome to our fitness haven! We're thrilled that you've chosen to kickstart your journey to a healthier, fitter you. At our hub, we understand that everyone's fitness goals are as unique as they are, and we're here to support you every step of the way.</p>
+            <p>🌟 Greetings and welcome to our fitness haven! We're thrilled that you've chosen to kickstart your
+                journey to a healthier, fitter you. At our hub, we understand that everyone's fitness goals are as
+                unique as they are, and we're here to support you every step of the way.</p>
         </div>
 
     </header>
@@ -37,24 +39,24 @@
         <form onsubmit="return validate()" action="" class="forminfo">
             <div>
                 <label for="formname">Name:</label>
-            <br><input type="text" id="formname">
+                <br><input type="text" id="formname">
 
             </div>
             <br>
             <div>
                 <label for="formage">Age:</label>
-            <br><input type="number" id="formage">
+                <br><input type="number" id="formage">
 
             </div>
             <br>
             <div>
                 <label for="formmotive">Motive:</label>
-            <br> <input type="radio" id="gain" name="motive"> Gain
-            <input type="radio" id="lose" name="motive">Lose
+                <br> <input type="radio" id="gain" name="motive"> Gain
+                <input type="radio" id="lose" name="motive">Lose
 
 
             </div>
-            <div >
+            <div>
                 <input type="submit" class="submitforminfo">
             </div>
 
@@ -64,71 +66,67 @@
         </form>
 
     </header>
-   
-    
-
-<form onsubmit=" return thanks()" class="contactus" id="contactus">
-    <section class="contactsec ">
-     <h2 class="center">Contact Us</h2>
-     <div class="contactform center">
-         <input type="text " placeholder="Enter Your Name" id="cuname">
-     </div>
-     <div class="contactform center">
-         <input type="email " placeholder="Enter Your Email" id="cuemail">
-     </div>
-     <div class="contactform center">
-         <textarea placeholder="Enter your querry" id="cuq"></textarea>
-         
-     </div >
-     <button action="index.html" class="csubmitbutton "><input type="submit"></button>
-    </section>
- </form>
 
 
-    
+
+    <form onsubmit=" return thanks()" class="contactus" id="contactus">
+        <section class="contactsec ">
+            <h2 class="center">Contact Us</h2>
+            <div class="contactform center">
+                <input type="text " placeholder="Enter Your Name" id="cuname">
+            </div>
+            <div class="contactform center">
+                <input type="email " placeholder="Enter Your Email" id="cuemail">
+            </div>
+            <div class="contactform center">
+                <textarea placeholder="Enter your querry" id="cuq"></textarea>
+
+            </div>
+            <button action="index.html" class="csubmitbutton "><input type="submit"></button>
+        </section>
+    </form>
+
+
+
 
 
 </body>
 <script>
-    function validate()
-    {
+    function validate() {
 
-        var name=document.getElementById("formname").value;
-        var age=document.getElementById("formage").value;
-        var motive=document.getElementsByName("motive");
-        var gain=document.getElementById("gain");
-        var flag=true;
-        for(var i=0;i<motive.length;i++)
-        {
-            if(motive[i].checked){
-                flag=false;
+        var name = document.getElementById("formname").value;
+        var age = document.getElementById("formage").value;
+        var motive = document.getElementsByName("motive");
+        var gain = document.getElementById("gain");
+        var lose = document.getElementById("lose");
+        var flag = true;
+        for (var i = 0; i < motive.length; i++) {
+            if (motive[i].checked) {
+                flag = false;
                 break;
             }
-            
+
         }
-        if(name==""|| age==""){
+        if (name == "" || age == "") {
             alert("Please fill all the fields");
             return false;
         }
-        if (flag==true){
+        if (flag == true) {
             alert("Please fill all the fields");
             return false
         }
-         if(gain.checked==true){
+        if (gain.checked == true) {
 
-            if(age>=15 && age<=30)
-            {
-                window.open("cat1.html");
+            if (age >= 15 && age <= 30) {
+                window.open("gaincat1.html");
             }
-            else if(age>=31 && age<=40)
-            {
-                window.open("cat2.html");
+            else if (age >= 31 && age <= 40) {
+                window.open("gaincat2.html");
             }
-            else if(age>=41&& age<=90)
-            {
-                window.open("cat3.html");
+            else if (age >= 41 && age <= 90) {
+                window.open("gaincat3.html");
             }
-            else{
+            else {
                 alert("YOUR AGE IS TOO MUCH ENJOY YOUR LIFE INSTED OF DOING GYM")
             }
         }
@@ -147,26 +145,26 @@
                 alert("YOUR AGE IS TOO MUCH ENJOY YOUR LIFE INSTED OF DOING GYM")
             }
         }
-        
 
-        
-       
-        
-       
 
-        
-        
+
+
+
+
+
+
+
 
     }
-    function thanks(){
-        let name=document.getElementById("cuname").value;
-        let em=document.getElementById("cuemail").value;
-        let q=document.getElementById("cuq").value;
-        if(name==""|| em=="" || q==""){
+    function thanks() {
+        let name = document.getElementById("cuname").value;
+        let em = document.getElementById("cuemail").value;
+        let q = document.getElementById("cuq").value;
+        if (name == "" || em == "" || q == "") {
             alert("Empty Field");
             return false;
         }
-        else{
+        else {
             alert("Thanks For Submiting!");
             return true;
         }
