@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pumped Machine</title>
+    <title>PumpedMachine - Free Gym Exercise Schedule and Diet Plans</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="firsthalf">
         <nav class="navbar">
             <ul class="navop">
-                <span class="logotext"><h1>PUMPED MACHINE</h1></span>
-                <span class=" href"><li><a href="index.html">Home</a></li>
+                <div class="logotext"><h1>PUMPED MACHINE</h1></div>
+                <div class=" href"><li><a href="index.html">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contactus">Contact Us</a></li>
-            </span>
+                </div>
             </ul>
         </nav>
      
         <section class="homepagetext">
-            <span class="Welcome">Welcome</span> to <span class="pmtext">Pumped Machine </span>- Where Fitness Meets Fulfillment! Ignite your fitness journey with tailored workout plans designed just for you. Whether your goal is to build muscle, lose weight, or enhance overall well-being, we’ve got your back. Explore our diverse range of exercises, expert tips, and a supportive community ready to cheer you on. Let’s make every workout count – your transformation starts here!
+            <div class="Welcome">Welcome</div> to <div class="pmtext">Pumped Machine </div>
+            <div class="texthome">
+                - Where Fitness Meets Fulfillment! Ignite your fitness journey with tailored workout plans designed just for you. Whether your goal is to build muscle, lose weight, or enhance overall well-being, we’ve got your back. Explore our diverse range of exercises, expert tips, and a supportive community ready to cheer you on. Let’s make every workout count – your transformation starts here!
             
+            </div>
                 <div >
                     <form action="letsstart.html">
                         <button action="letsstart.html" class="btn">Lets Go</button>
@@ -47,7 +50,7 @@
 
         </div>
         <div class="fimg">
-            <img src="sec2.avif" alt="">
+            <img src="/image/sec2.avif" alt="">
 
         </div>
     </header>
@@ -62,7 +65,7 @@
 
         </div>
         <div class="fimg">
-            <img src="sec3.avif" alt="">
+            <img src="/image/sec3.avif" alt="">
 
         </div>
     </header>
@@ -77,27 +80,27 @@
 
         </div>
         <div class="fimg">
-            <img src="sec4.jpeg" alt="">
+            <img src="/image/sec4.jpeg" alt="">
 
         </div>
     </header>
     
-    <header class="contactus" id="contactus">
+    <form onsubmit=" return thanks()" class="contactus" id="contactus">
        <section class="contactsec ">
         <h2 class="center">Contact Us</h2>
         <div class="contactform center">
-            <input type="text " placeholder="Enter Your Name">
+            <input type="text " placeholder="Enter Your Name" id="cuname">
         </div>
         <div class="contactform center">
-            <input type="email " placeholder="Enter Your Email">
+            <input type="email " placeholder="Enter Your Email" id="cuemail">
         </div>
         <div class="contactform center">
-            <textarea placeholder="Enter your query"></textarea>
+            <textarea placeholder="Enter your querry" id="cuq"></textarea>
             
         </div >
-        <div class="csubmitbutton"><input type="submit"></div>
+        <button class="csubmitbutton "><input type="submit"></button>
        </section>
-    </header>
+    </form>
 
 
     <footer>
@@ -107,4 +110,19 @@
     
     
 </body>
+<script>
+    function thanks(){
+        let name=document.getElementById("cuname").value;
+        let em=document.getElementById("cuemail").value;
+        let q=document.getElementById("cuq").value;
+        if(name==""|| em=="" || q==""){
+            alert("Empty Field");
+            return false;
+        }
+        else{
+            alert("Thanks For Submiting!");
+            return true;
+        }
+    }
+</script>
 </html>
