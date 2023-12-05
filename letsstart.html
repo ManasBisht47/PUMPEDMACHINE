@@ -5,13 +5,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pumped Machine</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+    <style>
+        
+    </style>
+   
 </head>
 
-<body >
-     <header class="letsgobg">
+<body class="letsgopagebody">
+    <header class="letsgobg">
         <nav class="navbar">
             <ul class="navop">
                 <div class="logotext">
@@ -25,131 +28,133 @@
             </ul>
         </nav>
         <div class="letsgopagetitle">
-            <h2>Welcome to Your Personalized Fitness Adventure!</h2>
+            <h2 style="color: #ff7900;">Welcome to Your Personalized Fitness Adventure!</h2>
             <p>🌟 Greetings and welcome to our fitness haven! We're thrilled that you've chosen to kickstart your journey to a healthier, fitter you. At our hub, we understand that everyone's fitness goals are as unique as they are, and we're here to support you every step of the way.</p>
         </div>
 
     </header>
-    <header class="secondhalf widthset" id="about" >
-        <div class="fcol">
-            <p class="heading">
-                🏋️‍♂️ Your Fitness, Your Choice: Gain or Lose?
-            </p>
-            <p class="lowheading">
-                It's all about what you want to achieve. Are you eager to build muscle, gain strength, and redefine your physique? Or perhaps you're on a quest to shed those extra pounds and embrace a leaner, healthier version of yourself? Your choice sets the tone for the exciting adventure ahead!
-            </p>
+    <header class="letsgoform">
+        <form onsubmit="return validate()" action="" class="forminfo">
+            <div>
+                <label for="formname">Name:</label>
+            <br><input type="text" id="formname">
 
-        </div>
-        <div class="fimg">
-            <!-- <img src="/image/sec2.avif" alt=""> -->
+            </div>
+            <br>
+            <div>
+                <label for="formage">Age:</label>
+            <br><input type="number" id="formage">
 
-        </div>
+            </div>
+            <br>
+            <div>
+                <label for="formmotive">Motive:</label>
+            <br> <input type="radio" id="gain" name="motive"> Gain
+            <input type="radio" id="lose" name="motive">Lose
+
+
+            </div>
+            <div >
+                <input type="submit" class="submitforminfo">
+            </div>
+
+
+
+
+        </form>
+
     </header>
-    <header class="secondhalf" id="about">
-        <div class="fcol">
-            <p class="heading">
-                
-                💪 Crafting Your Personalized Path:
-            </p>
-            <p class="lowheading">
-                Once you've made your choice, get ready for a tailored experience like no other. Our team of experts has meticulously designed exercise routines and diet plans specifically catered to your selected goal. This isn't just a fitness plan; it's a roadmap to success customized just for you.
+   
+    
 
-
-            </p>
-
-        </div>
-        <div class="fimg">
-            <!-- <img src="/image/sec4.jpeg" alt=""> -->
-
-        </div>
-    </header>
-    <header class="secondhalf">
-        <div class="fcol">
-            <p class="heading">
-                
-                🍏🏃‍♀️ Nutrition and Exercise Harmony:
-            </p>
-            <p class="lowheading">
-                Embark on a culinary journey that complements your fitness aspirations. From nutrient-packed meals to invigorating workouts, we've curated a seamless blend to accelerate your progress. Let's not just meet your goals but surpass them!
-
-            </p>
-
-        </div>
-        <div class="fimg">
-            <!-- <img src="/image/sec4.jpeg" alt=""> -->
-
-        </div>
-    </header>
-    <header class="secondhalf">
-        <div class="fcol">
-            <p class="heading">
-                
-                🔒 Your Journey, Your Tempo:
-            </p>
-            <p class="lowheading">
-                We recognize that everyone progresses at their own pace. Whether you're a fitness enthusiast or just starting, our platform is designed to adapt to your needs. No rush, no 
-            </p>
-
-        </div>
-        <div class="fimg">
-            <!-- <img src="/image/sec4.jpeg" alt=""> -->
-
-        </div>
-    </header>
-    <header class="secondhalf">
-        <div class="fcol">
-            <p class="heading">
-                
-                🎉 Let the Fitness Fiesta Begin!
-            </p>
-            <p class="lowheading">
-                Are you ready to transform your lifestyle, boost your energy, and unveil the best version of yourself? The journey starts now! Dive into our wealth of resources, expert advice, and a community that shares your passion. Together, let's make every fitness milestone a celebration.
-            </p>
-
-        </div>
-        <div class="fimg">
-            <!-- <img src="/image/sec4.jpeg" alt=""> -->
-
-        </div>
-    </header>
-</header>
-<header class="secondhalf">
-    <div class="fcol">
-        <p class="heading">
-            
-            🚀 Your Success Awaits:
-        </p>
-        <p class="lowheading">
-            Thank you for choosing us as your fitness partner. The road ahead is filled with exciting challenges and triumphs, and we can't wait to celebrate each victory with you. Here's to a healthier, happier, and more confident you!
-
-
-        </p>
-
-    </div>
-    <div class="fimg">
-        <!-- <img src="/image/sec4.jpeg" alt=""> -->
-
-    </div>
-</header>
-<header class="contactus" id="contactus">
+<form onsubmit=" return thanks()" class="contactus" id="contactus">
     <section class="contactsec ">
      <h2 class="center">Contact Us</h2>
      <div class="contactform center">
-         <input type="text " placeholder="Enter Your Name">
+         <input type="text " placeholder="Enter Your Name" id="cuname">
      </div>
      <div class="contactform center">
-         <input type="email " placeholder="Enter Your Email">
+         <input type="email " placeholder="Enter Your Email" id="cuemail">
      </div>
      <div class="contactform center">
-         <textarea placeholder="Enter your query"></textarea>
+         <textarea placeholder="Enter your querry" id="cuq"></textarea>
          
      </div >
-     <div class="csubmitbutton"><input type="submit"></div>
+     <button action="index.html" class="csubmitbutton "><input type="submit"></button>
     </section>
- </header>
+ </form>
 
+
+    
 
 
 </body>
+<script>
+    function validate()
+    {
+
+        var name=document.getElementById("formname").value;
+        var age=document.getElementById("formage").value;
+        var motive=document.getElementsByName("motive");
+        var gain=document.getElementById("gain");
+        var flag=true;
+        for(var i=0;i<motive.length;i++)
+        {
+            if(motive[i].checked){
+                flag=false;
+                break;
+            }
+            
+        }
+        if(name==""|| age==""){
+            alert("Please fill all the fields");
+            return false;
+        }
+        if (flag==true){
+            alert("Please fill all the fields");
+            return false
+        }
+        if(gain.checked==true){
+
+            if(age>=18 && age<=30)
+            {
+                window.open("cat1.html");
+            }
+            else if(age>=31 && age<=50)
+            {
+                window.open("cat2.html");
+            }
+            else if(age>=51&& age<=60)
+            {
+                window.open("cat3.html");
+            }
+            else{
+                alert("YOUR AGE IS TOO MUCH ENJOY YOUR LIFE INSTED OF DOING GYM")
+            }
+        }
+
+        
+       
+        
+       
+
+        
+        
+
+    }
+    function thanks(){
+        let name=document.getElementById("cuname").value;
+        let em=document.getElementById("cuemail").value;
+        let q=document.getElementById("cuq").value;
+        if(name==""|| em=="" || q==""){
+            alert("Empty Field");
+            return false;
+        }
+        else{
+            alert("Thanks For Submiting!");
+            return true;
+        }
+    }
+</script>
 
 </html>
