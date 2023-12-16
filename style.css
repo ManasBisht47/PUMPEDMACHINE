@@ -195,7 +195,7 @@ body {
     background-blend-mode: darken;
     background-repeat: no-repeat;
     margin: auto;
-    background: rgba(0, 0, 0, 0.491) url(/image/backmain.jpg);
+    background: rgba(0, 0, 0, 0.491) url(backmain.jpg);
     background-blend-mode: darken;
     background-size: 100vw 93vh;
     background-repeat: no-repeat;
@@ -283,7 +283,7 @@ body {
 
 
     margin: 0;
-    background: rgba(0, 0, 0, 0.79) url(/image/backmain.jpg);
+    background: rgba(0, 0, 0, 0.79) url(backmain.jpg);
     background-blend-mode: darken;
     background-size: 100vw 93vh;
     background-repeat: no-repeat;
@@ -402,7 +402,7 @@ body {
     background-blend-mode: darken;
     background-repeat: no-repeat;
     margin: auto;
-    background: rgba(0, 0, 0, 0.681) url(/image/realbg.jpeg);
+    background: rgba(0, 0, 0, 0.681) url(realbg.jpeg);
     background-blend-mode: darken;
     background-size: 100vw 93vh;
     background-repeat: no-repeat;
