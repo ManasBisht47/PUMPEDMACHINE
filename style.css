@@ -7,6 +7,7 @@
 }
 
 html {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
     scroll-behavior: smooth;
     /* font-size: 100%; */
     font-size: calc(15px + 0.390625vw);
@@ -194,7 +195,7 @@ body {
     background-blend-mode: darken;
     background-repeat: no-repeat;
     margin: auto;
-    background: rgba(0, 0, 0, 0.491) url(backmain.jpg);
+    background: rgba(0, 0, 0, 0.491) url(/image/backmain.jpg);
     background-blend-mode: darken;
     background-size: 100vw 93vh;
     background-repeat: no-repeat;
@@ -282,7 +283,7 @@ body {
 
 
     margin: 0;
-    background: rgba(0, 0, 0, 0.79) url(backmain.jpg);
+    background: rgba(0, 0, 0, 0.79) url(/image/backmain.jpg);
     background-blend-mode: darken;
     background-size: 100vw 93vh;
     background-repeat: no-repeat;
@@ -401,7 +402,7 @@ body {
     background-blend-mode: darken;
     background-repeat: no-repeat;
     margin: auto;
-    background: rgba(0, 0, 0, 0.491) url(backmain.jpg);
+    background: rgba(0, 0, 0, 0.681) url(/image/realbg.jpeg);
     background-blend-mode: darken;
     background-size: 100vw 93vh;
     background-repeat: no-repeat;
@@ -423,27 +424,27 @@ body {
 
 .letsgopagetitle{
    
-    background-color: rgba(255, 254, 254, 0.095);
+    background-color: rgba(255, 254, 254, 0.082);
     width: 50vw;
-    height: 40vh;
+    height: fit-content;
     text-align: start;
     font-size: 1.25rem;
     margin: auto;
     border-radius: 10px;
-    margin-top: 10vh;
+    margin-top: 20vh;
     word-spacing: 0.2em;
-    padding-top: 100px;
+    padding: 50px;
     text-align: center;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .letsgopagebody{
-    background-color:rgb(255, 236, 210);
+    background-color:black;
     
 }
 .letsgoform{
 
-    background-color: rgba(0, 0, 0, 0.009);
+    background-color: rgba(255, 255, 255, 0.009);
    
     display: block;
     width: 50%;
@@ -453,8 +454,8 @@ body {
     
    
     font-size: 1.5rem;
-    color: olive;
-    border: 8px solid olive;
+    color: white;
+    border: 2px solid white;
     border-radius: 10px;
     font-weight: 100;
    
@@ -462,6 +463,7 @@ body {
 .letsgoform input{
     font-size: 1rem;
     padding: 0.5rem;
+    border-radius: 8px;
     
 }
 .forminfo{
@@ -474,6 +476,7 @@ body {
 }
 .submitforminfo{
     border: none;
+    background-color: rgb(243, 102, 149);
     border-radius: 10px;
     margin-top: 2vh;
     cursor: pointer;
