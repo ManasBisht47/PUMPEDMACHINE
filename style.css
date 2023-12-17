@@ -1,86 +1,111 @@
+
+
+
+
 * {
-
-    padding: 0;
-    ;
     margin: 0;
-    ;
+    padding: 0;
 }
-
-html {
-    font-family: 'Baloo Bhaijaan 2', sans-serif;
+html{
     scroll-behavior: smooth;
-    /* font-size: 100%; */
     font-size: calc(15px + 0.390625vw);
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    
 }
 
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* background-image: url(/image/background.jpg);
-    background-size: 2000px;
-    background-repeat: no-repeat; */
-    color: white;
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+
+}
+
+.navigationbar {
+    background-color: rgba(0, 0, 0, 0.305);
+    width: 100%;
+    height: 100vh;
    
-    
+
+
+}
+
+.mainlogo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    font-size: 2rem;
+
+}
+
+/* NAVBAR CSS */
+.navbar {
    
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.62);
+    display: flex;
+    gap: 50px;
+    height: 10vh;
     
     
-    
+  
+
 }
 
 .navop {
 
-    background-color: rgba(255, 254, 254, 0.095);
-    border-radius: 10px;
-
-
-    margin-top: 20px;
 
     display: flex;
+    gap: 100px;
+    width: 100%;
+    list-style: none;
+    
+}
 
-    height: 12vh;
-    width: 99vw;
-    justify-content: space-around;
+.logotext {
 
+    margin-left: 15vw;
 
-
+    display: flex;
+    justify-content: center;
     align-items: center;
 
-    
+}
 
-    list-style: none;
-    color: white;
+.href {
+    margin-left: 20vh;
 
-
-
-
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .navop a {
+
+
     text-decoration: none;
+
     color: white;
     font-size: 0.9375rem;
-
-
-
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
 }
 
 .navop a:hover {
-    color: #ff7900;
+    color: #ff671f
 }
 
+/* FIRST HALF CSS */
 .homepagetext {
 
 
-    background-color: rgba(255, 254, 254, 0.095);
+    /* background-color: rgba(255, 254, 254, 0.095); */
     width: 50%;
     height: 50%;
-    text-align: start;
-    font-size: 1.25rem;
+    text-align: justify;
     margin: auto;
     border-radius: 10px;
     margin-top: 10vh;
@@ -88,123 +113,43 @@ body {
     padding-top: 6.25rem;
     text-align: center;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
-}
-
-.letsstartbutton {
-    width: fit-content;
-    margin-left: 300px;
-    margin-top: 50px;
-    background-color: #ff7900;
-    border-radius: 90px;
-}
-
-.letsstartbutton a {
-    text-decoration: none;
-    font-size: 1.25rem;
-    padding: 20px;
-    color: white;
-
-}
-
-.letsstartbutton a:hover {
-
-    text-decoration: underline;
-
-
-}
-
-.logotext {
-    align-content: end;
-    color: #ff7900;
-    margin-left: 20px;
-    font-size: 1.25rem;
-
-}
-
-.href {
-
-    
-    display: flex;
-    align-items: center;
-    align-content: center;
-    gap: 100px;
-    margin: auto;
-    font-size: 1.375rem;
-
-}
-
-.logotext h1:hover {
-    color: red;
-    cursor: default;
-}
-
-
-
-
-.Welcome:hover {
-    color: red;
-    cursor: default;
-
-}
-
-.Ename {
-    display: block;
-
-    width: fit-content;
-    margin: auto;
-    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
 
 
 
 }
 
-/* .Ename:hover{
-    border: 2px solid rgba(0, 0, 255, 0.611);
-} */
-.Ename input {
-    font-size: 1.25rem;
+.caption {
+    margin-top: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.5px;
 }
 
-.btn {
-    border: none;
-
-    font-size: 1.25rem;
-    margin-top: 40px;
-    height: 5vh;
-    width: 8vw;
-    border-radius: 0.5em;
-    color: white;
-    background-color: #ff770086;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    cursor: pointer;
+h6 {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.btn:hover {
-    background-color: #ff7900;
+.captext {
+    font-size: 5rem;
 }
 
+.captext2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
-
-
-
-.firsthalf {
-    top: 0;
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.491) url(backmain.jpg);
-    background-blend-mode: darken;
-    background-size: 100vw 93vh;
-    background-repeat: no-repeat;
-    border: none;
-    width: 100vw;
-    height: 90vh;
-    padding: 10px;
 }
 
+.captextcol {
+    color: #ff671f;
+}
+
+/* SECOND HALF */
 .heading {
     font-size: 1.25rem;
     color: #ff7900;
@@ -218,94 +163,129 @@ body {
     font-size: 0.9375rem;
     text-align: center;
     word-spacing: 10%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .secondhalf {
+
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.045);
+
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     align-content: center;
     width: 86vw;
-    height: 40vh;
-
-    margin: auto;
-    display: flex;
-    margin-top: 50px;
-    gap: 50px;
-}
-
-.thirdhalf {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.045);
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 86vw;
-    height: 40vh;
+    height: 20vh;
 
     margin: auto;
     display: flex;
     margin-top: 50px;
     gap: 50px;
     flex-direction: row-reverse;
+    word-spacing: 1%;
+    line-height: 3vh;
 
+
+
+
+
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .fcol {
+
     width: 50%;
 
 }
 
 .fimg {
+
     align-items: center;
 }
 
 .secondhalf img {
-    width: 30vw;
-    height: 30vh;
+    width: 6vw;
+    height: 10vh;
     border-radius: 10px;
 
 }
 
-.thirdhalf img {
-    width: 30vw;
-    height: 30vh;
-    border-radius: 10px;
+.thirdhalf {
 
-}
-
-.contactus {
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-
-
-    margin: 0;
-    background: rgba(0, 0, 0, 0.79) url(backmain.jpg);
-    background-blend-mode: darken;
-    background-size: 100vw 93vh;
-    background-repeat: no-repeat;
-    border-top: solid black;
-
-    width: 100vw;
+    margin-top: 10vh;
+    width: 100%;
     height: 50vh;
 
-    padding: 10px;
-    margin-top: 50px;
+    color: white;
+    background-image: url(thirdimg.jpg);
+
+
+
+}
+
+.thirdhalfedit {
+    padding-top: 10vh;
+
+
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.thirdhalfedit2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    width: 50%;
+    align-items: center;
+    margin-left: 25vw;
+
+
+    font-size: 1rem;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    word-spacing: 1%;
+    line-height: 3vh;
+
+
+}
+
+/* CONTACT US */
+.contactus {
+
+
+
+
+    margin-top: 10vh;
+
+    background: url(/image/contactuss.jpg);
+    background-blend-mode: darken;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 50vh;
+
+    /* padding: 10px;
+    margin-top: 50px; */
+
 
 }
 
 .contactsec {
+    margin: 10vh;
+
 
     border-radius: 10px;
     width: 50%;
     height: 80%;
     margin: auto;
-    margin-top: 50px;
-    
-    background-color: rgba(255, 254, 254, 0.095);
+
+
+
     padding: 10px;
 }
 
@@ -315,6 +295,9 @@ body {
     justify-content: center;
     margin-top: 30px;
     align-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .contactsec input {
@@ -324,7 +307,7 @@ body {
 }
 
 .contactsec textarea {
-  
+
     width: 40vw;
     height: 4vh;
     border-radius: 10px;
@@ -335,16 +318,23 @@ body {
     text-align: center;
     word-spacing: 5px;
 }
-.csubmitbutton input{
+
+.csubmitbutton input {
     width: 8vw;
     height: 4vh;
     cursor: pointer;
+    background-color: #ff671f;
+    border: 0;
+    color: white;
     
+
 }
+
 .csubmitbutton {
     display: block;
     border: none;
-    
+ 
+
 
     font-size: 1.25rem;
     margin-top: 40px;
@@ -354,382 +344,51 @@ body {
     border-radius: 0.5em;
     color: white;
     background: none;
-   
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
-    
-    
-    
-    
-    
-}
-   
 
-.secondhalf:hover {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.045);
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 80vw;
 
-    margin: auto;
-    display: flex;
-    margin-top: 50px;
-    gap: 50px;
-    border: 2px solid #ff7900;
+
+
+
 }
 
-.thirdhalf:hover {
-    border: 2px solid #ff7900;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.045);
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 80vw;
-
-    margin: auto;
-    display: flex;
-    margin-top: 50px;
-    gap: 50px;
-}
-.letsgobg{
+.contactustext {
+    font-size: 2rem;
     
-   
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.681) url(realbg.jpeg);
-    background-blend-mode: darken;
-    background-size: 100vw 93vh;
-    background-repeat: no-repeat;
+}
+
+.btn {
+    display: block;
     border: none;
-    width: 100vw;
-    height: 90vh;
-    padding: 10px;
-}
 
-.Welcome{
-    font-size: 2.5rem;
-    color: #ff7900;
-}
-.pmtext{
-    font-size: 2.5rem;
-    color: #ff7900;
-}
-/* Lets go page  */
-
-.letsgopagetitle{
-   
-    background-color: rgba(255, 254, 254, 0.082);
-    width: 50vw;
-    height: fit-content;
-    text-align: start;
     font-size: 1.25rem;
-    margin: auto;
-    border-radius: 10px;
-    margin-top: 20vh;
-    word-spacing: 0.2em;
-    padding: 50px;
-    text-align: center;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.letsgopagebody{
-    background-color:black;
-    
-}
-.letsgoform{
 
-    background-color: rgba(255, 255, 255, 0.009);
-   
-    display: block;
-    width: 50%;
-    height: 50vh;
+    height: 5vh;
+    width: 8vw;
     margin: auto;
-    margin-top: 100px;
-    
-   
-    font-size: 1.5rem;
+    border-radius: 0.5em;
     color: white;
-    border: 2px solid white;
-    border-radius: 10px;
-    font-weight: 100;
-   
-}
-.letsgoform input{
-    font-size: 1rem;
-    padding: 0.5rem;
-    border-radius: 8px;
-    
-}
-.forminfo{
-    display: block;
-    
-    width: fit-content;
-    height: fit-content;
-    margin: auto;
-     margin-top: 10vh;
-}
-.submitforminfo{
-    border: none;
-    background-color: rgb(243, 102, 149);
-    border-radius: 10px;
-    margin-top: 2vh;
+    background-color: #ff671f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
-    
-   
-   
 }
-.pdf{
-    width: 100vw;
+
+.btnletsgo {
+    margin-top: 3vh;
+}
+.beniofgym{
+    width:100%;
     height: 100vh;
+
+}
+.middle{
+    margin-top: 10vh;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width:390px) {
-    .homepagetext {
-
-
-        background-color: rgba(255, 254, 254, 0.095);
-        width: 292px;
-        height: 108px;
-        text-align: start;
-        font-size: 10px;
-        margin:auto;
-        border-radius: 10px;
-        margin-top: 6px;
-        word-spacing: 0.2em;
-        padding-top: 11px;
-        text-align: center;
-        color: white;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    .Welcome{
-        font-size: 15px;
-        color: #ff7900;
-    }
-    .pmtext{
-        font-size: 15px;
-        color: #ff7900;
-    }
-    
-    
-    .firsthalf {
-        top: 0;;
-    
-    
-        background-blend-mode: darken;
-        background-repeat: no-repeat;
-    
-    
-        margin: auto;
-        background: rgba(0, 0, 0, 0.491) url(/image/backmain.jpg);
-        background-blend-mode: darken;
-        background-size: 390px;
-        background-repeat: no-repeat;
-        border: none;
-        
-    
-        height: 201px;
-    
-        padding: 10px;
-    }
-    .navop {
-        background-color: rgba(255, 254, 254, 0.095);
-        border-radius: 10px;
-        
-        width: 374px;
-        margin-left: -10;
-        margin-top: 20px;
-        display: flex;
-        height: 60px;
-        align-items: center;
-        
-        list-style: none;
-        color: white;
-    
-    
-    }
-    .logotext {
-        align-content: end;
-        color: #ff7900;
-        margin-left: 10px;
-        font-size: 12px;
-        
-        width: 110px;
-    
-    }
-    .href {
-      
-        margin-left: 10px;
-        width: 200px;
-        margin-top: 2px;
-        display: flex;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        padding: 10px;
-        
-        gap: 25px;
-        
-    
-    
-    
-    }
-    .navop a {
-        text-decoration: none;
-        color: white;
-        font-size: 10px;
-    
-    
-    
-    }
-    
-    .btn {
-
-        border: none;
-        font-size: 15px;
-        margin-top: 27px;
-        height: 30px;
-        width: 90px;
-        border-radius: 10px;
-        color: white;
-        background-color: #ff770086;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        cursor: pointer;
-    
-    
-    
-}
-.secondhalf {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.045);
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    
-
-    margin: auto;
-    display: flex;
-    margin-top: 50px;
-    width: 340px;
-    border: solid #ff7900
-    
-}
-.secondhalf img {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    
-}
-.thirdhalf img {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;}
-.thirdhalf{
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.045);
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    
-
-    margin: auto;
-    display: flex;
-    margin-top: 50px;
-    width: 340px;
-    border: solid #ff7900
-}
-
-.heading {
-    font-size: 15px;
-    color: #ff7900;
-    text-align: center;
-
-}
-
-.lowheading {
-    margin-top: 15px;
-    color: black;
-    font-size: 10px;
-    text-align: center;
-    word-spacing: 10%;
-}
-.contactus {
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-
-
-    margin: 0;
-    background: rgba(0, 0, 0, 0.79) url(/image/backmain.jpg);
-    background-blend-mode: darken;
-    background-size: 390px;
-    background-repeat: no-repeat;
-    border-top: solid black;
-
-    height: 295px;
-
-    padding: 10px;
-    margin-top: 50px;
-
-}
-.contactsec {
-
-    background-color: rgba(255, 254, 254, 0.095);
-    width: 292px;
-    height: 162px;
-    text-align: start;
-    font-size: 10px;
-    margin:auto;
-    border-radius: 10px;
-    margin-top: 6px;
-    word-spacing: 0.2em;
-    padding-top: 11px;
-    text-align: center;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.center {
-    display: flex;
-    justify-content: center;
-    margin-top: 2px;
-    align-content: center;}
-.csubmitbutton {
-        margin-top: 10px;
-        margin-left: 1px;
-        width: fit-content;
-    }  
-.contactsec input {
-        width: 200px;
-        height: 27px;
-        border-radius: 10px;
-        font-size: 10px;
-    }
-.contactsec textarea {
-        width: 200px;
-        height: 27px;
-        border-radius: 10px;
-    }
-} */
+/* MEDIA QUERY */
 @media (min-width:768px) {
     html {
         font-size: 10px;
@@ -791,4 +450,98 @@ body {
 }
 
 
+.letsgopagetitle{
+   
+   
+    width: 50vw;
+    height: fit-content;
+    
+    text-align: start;
+    font-size: 1rem;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10vh;
+    word-spacing: 0.2em;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.letsgopagetitle2{
 
+    display: block;
+    background-color: rgba(255, 254, 254, 0.033);
+    width: fit-content;
+    height: fit-content;
+    text-align: start;
+    font-size: 0.8rem;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10vh;
+    word-spacing: 0.2em;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.letsgopagebody{
+    background-color:white;
+    
+}
+.letsgoform{
+
+    background-color: rgba(255, 255, 255, 0.009);
+   
+    display: block;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 100px;
+    
+   
+    font-size: 1.5rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 800px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.letsgoform input{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    
+}
+.forminfo{
+    display: block;
+    
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+     margin-top: 10vh;
+}
+.submitforminfo{
+    border: none;
+    background-color: #ff671f;
+    border-radius: 10px;
+    margin-top: 2vh;
+    cursor: pointer;
+    
+}
+.letsgobg{
+    
+   
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.454);
+  
+    background-blend-mode: darken;
+    background-size: 100vw 93vh;
+    background-repeat: no-repeat;
+    border: none;
+    width: 100%;
+    height: 99.5vh;
+    /* padding: 10px; */
+}
