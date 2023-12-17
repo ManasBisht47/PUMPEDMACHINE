@@ -545,3 +545,7 @@ h6 {
     height: 99.5vh;
     /* padding: 10px; */
 }
+.pdf{
+    width: 100vw;
+    height: 100vh;
+}
