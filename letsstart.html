@@ -6,34 +6,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-
-    </style>
-
+    <link rel="stylesheet" href="onlydemo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Comfortaa:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Comfortaa:wght@300&family=Poppins:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Comfortaa:wght@300&family=Poppins:wght@100;200&display=swap"
+        rel="stylesheet">
 </head>
+  
 
 <body class="letsgopagebody">
+    <video loop autoplay muted>
+        <source src="/image/specialvid.mp4">
+    </video>
     <header class="letsgobg">
         <nav class="navbar">
             <ul class="navop">
-                <div class="logotext">
-                    <h1>PUMPED MACHINE</h1>
+                <div class="logotext caption">
+                    <h1 class="mainlogo">PUMPED <span class="captextcol">MACHINE</span></h1>
                 </div>
-                <div class="href">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contactus">Contact Us</a></li>
+                <div class=" href">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contactus">CONTACT US</a></li>
                 </div>
             </ul>
         </nav>
+     
+       
         <div class="letsgopagetitle">
-            <h2 style="color: #ff7900;">Welcome to Your Personalized Fitness Adventure!</h2>
-            <p>🌟 Greetings and welcome to our fitness haven! We're thrilled that you've chosen to kickstart your
-                journey to a healthier, fitter you. At our hub, we understand that everyone's fitness goals are as
-                unique as they are, and we're here to support you every step of the way.</p>
+            
+            <center><h2 class="captext">Welcome to Your <span class="captextcol">Personalized </span>Fitness Adventure!</h2><br></center>
+            
         </div>
 
+       
+
+    </header>
+    <center><div id="about" class="middle"><h6 class="captext2">HOW IT <span class="captextcol">WORK</span></h6></div></center>
+    <div class="midicon">
+        <br>
+       <center> <img src="/image/midicon.png"></center>
+    </div>
+    <header class="secondhalf" >
+        <div class="fcol">
+            
+            <p class="lowheading">
+                <p>1: Fill out the Form: <span class="captextcol">Name</span>, age, and <span class="captextcol">your</span> health goal.</p>
+                <br><br>
+                <p>2:Get Your <span class="captextcol">PDF:</span> Personalized tips and a plan <span class="captextcol">for</span> your journey.</p>
+                <br><br>
+                <p>3:Start Now: Your <span class="captextcol">path</span> to a healthier <span class="captextcol">you</span> begins here!</p>
+            </p>
+
+        </div>
+        <div class="fimg">
+            <img src="icon.png" alt="">
+
+        </div>
     </header>
     <header class="letsgoform">
         <form onsubmit="return validate()" action="" class="forminfo">
@@ -71,7 +110,7 @@
 
     <form onsubmit=" return thanks()" class="contactus" id="contactus">
         <section class="contactsec ">
-            <h2 class="center">Contact Us</h2>
+            <h2 class="center contactustext">Contact <span class="captextcol"> -Us</span> </h2>
             <div class="contactform center">
                 <input type="text " placeholder="Enter Your Name" id="cuname">
             </div>
@@ -79,10 +118,10 @@
                 <input type="email " placeholder="Enter Your Email" id="cuemail">
             </div>
             <div class="contactform center">
-                <textarea placeholder="Enter your querry" id="cuq"></textarea>
+                <textarea placeholder="Enter your query" id="cuq"></textarea>
 
             </div>
-            <button action="index.html" class="csubmitbutton "><input type="submit"></button>
+            <button class="csubmitbutton "><input type="submit"></button>
         </section>
     </form>
 
@@ -90,7 +129,7 @@
 
 
 
-
+</body>
 <script>
     function validate() {
 
@@ -107,6 +146,7 @@
             }
 
         }
+
         if (name == "" || age == "") {
             alert("Please fill all the fields");
             return false;
@@ -127,7 +167,7 @@
                 window.open("gaincat3.html");
             }
             else {
-                alert("WE HAVE NO PLANS FOR YOUR AGE");
+                alert("YOUR AGE IS TOO MUCH ENJOY YOUR LIFE INSTED OF DOING GYM")
             }
         }
         if (lose.checked == true) {
@@ -142,7 +182,7 @@
                 window.open("losecat3.html");
             }
             else {
-                alert("WE HAVE NO PLANS FOR YOUR AGE");
+                alert("YOUR AGE IS TOO MUCH ENJOY YOUR LIFE INSTED OF DOING GYM")
             }
         }
 
@@ -170,6 +210,5 @@
         }
     }
 </script>
- </body>
 
 </html>
